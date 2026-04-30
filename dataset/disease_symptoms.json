@@ -1,0 +1,322 @@
+{
+  "diseases": {
+    "Common Cold": {
+      "symptoms": ["runny_nose", "sneezing", "sore_throat", "cough", "congestion", "mild_fever", "headache", "fatigue"],
+      "description": "A viral infection of the upper respiratory tract that primarily affects the nose and throat. Usually mild and self-limiting, lasting 7-10 days.",
+      "precautions": [
+        "Get plenty of rest and sleep",
+        "Drink warm fluids like soup and herbal tea",
+        "Use saline nasal sprays to relieve congestion",
+        "Wash hands frequently to prevent spread"
+      ],
+      "severity": "Mild",
+      "icon": "thermometer"
+    },
+    "Influenza (Flu)": {
+      "symptoms": ["fever", "cough", "sore_throat", "body_ache", "fatigue", "chills", "headache", "muscle_pain", "runny_nose"],
+      "description": "A contagious respiratory illness caused by influenza viruses. More severe than the common cold and can lead to serious complications.",
+      "precautions": [
+        "Rest and stay hydrated with plenty of fluids",
+        "Take antiviral medication if prescribed within 48 hours",
+        "Isolate from others to prevent transmission",
+        "Consult a doctor if symptoms worsen"
+      ],
+      "severity": "Moderate",
+      "icon": "virus"
+    },
+    "COVID-19": {
+      "symptoms": ["fever", "cough", "shortness_of_breath", "fatigue", "loss_of_smell", "loss_of_taste", "body_ache", "headache", "sore_throat"],
+      "description": "A respiratory illness caused by the SARS-CoV-2 coronavirus. Symptoms range from mild to severe and may include long-term effects.",
+      "precautions": [
+        "Isolate immediately and get a PCR or antigen test",
+        "Wear a mask around others in your household",
+        "Monitor oxygen saturation with a pulse oximeter",
+        "Seek emergency care if breathing becomes difficult"
+      ],
+      "severity": "Moderate to Severe",
+      "icon": "virus"
+    },
+    "Pneumonia": {
+      "symptoms": ["fever", "cough", "shortness_of_breath", "chest_pain", "fatigue", "chills", "sweating", "rapid_breathing"],
+      "description": "An infection that inflames the air sacs in one or both lungs, which may fill with fluid. Can be caused by bacteria, viruses, or fungi.",
+      "precautions": [
+        "Take prescribed antibiotics on schedule and complete the course",
+        "Use a humidifier and drink warm liquids",
+        "Get adequate rest to help recovery",
+        "Seek immediate medical care for severe breathing difficulty"
+      ],
+      "severity": "Severe",
+      "icon": "lungs"
+    },
+    "Bronchitis": {
+      "symptoms": ["cough", "chest_pain", "fatigue", "shortness_of_breath", "mild_fever", "wheezing", "congestion"],
+      "description": "An inflammation of the lining of the bronchial tubes that carry air to and from the lungs. Often follows a cold or flu.",
+      "precautions": [
+        "Avoid smoking and exposure to lung irritants",
+        "Use a humidifier to add moisture to the air",
+        "Drink fluids to thin mucus",
+        "Take cough medicine only if cough disrupts sleep"
+      ],
+      "severity": "Mild to Moderate",
+      "icon": "lungs"
+    },
+    "Asthma": {
+      "symptoms": ["shortness_of_breath", "wheezing", "chest_pain", "cough", "rapid_breathing", "anxiety"],
+      "description": "A chronic condition where airways become inflamed, narrow, and produce extra mucus, making breathing difficult.",
+      "precautions": [
+        "Use prescribed inhalers as directed by your doctor",
+        "Identify and avoid known triggers like dust or pollen",
+        "Follow your asthma action plan",
+        "Keep rescue inhaler accessible at all times"
+      ],
+      "severity": "Chronic",
+      "icon": "lungs"
+    },
+    "Allergic Rhinitis": {
+      "symptoms": ["sneezing", "runny_nose", "watery_eyes", "itching", "congestion", "headache"],
+      "description": "An allergic response to airborne particles like pollen, dust mites, or pet dander, causing cold-like symptoms.",
+      "precautions": [
+        "Take antihistamines as recommended",
+        "Avoid known allergens when possible",
+        "Keep windows closed during high pollen seasons",
+        "Use HEPA air filters indoors"
+      ],
+      "severity": "Mild",
+      "icon": "allergy"
+    },
+    "Migraine": {
+      "symptoms": ["headache", "nausea", "vomiting", "blurred_vision", "dizziness", "fatigue", "sensitivity_to_light"],
+      "description": "A neurological condition characterized by intense, debilitating headaches, often accompanied by nausea and sensitivity to light and sound.",
+      "precautions": [
+        "Rest in a dark, quiet room during episodes",
+        "Apply cold compress to forehead",
+        "Take prescribed migraine medication early",
+        "Identify and avoid personal triggers"
+      ],
+      "severity": "Moderate",
+      "icon": "brain"
+    },
+    "Tension Headache": {
+      "symptoms": ["headache", "muscle_pain", "fatigue", "anxiety", "insomnia"],
+      "description": "The most common type of headache, often described as a dull, aching pain or pressure around the forehead, sides, and back of the head.",
+      "precautions": [
+        "Practice stress management techniques",
+        "Apply heat or cold to neck and shoulders",
+        "Maintain proper posture",
+        "Get adequate sleep and stay hydrated"
+      ],
+      "severity": "Mild",
+      "icon": "brain"
+    },
+    "Gastroenteritis": {
+      "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal_pain", "fever", "loss_of_appetite", "fatigue"],
+      "description": "An intestinal infection causing inflammation of the stomach and intestines, commonly known as the stomach flu.",
+      "precautions": [
+        "Stay hydrated with clear fluids and electrolyte drinks",
+        "Eat bland foods like toast, rice, and bananas (BRAT diet)",
+        "Avoid dairy, caffeine, and fatty foods",
+        "Wash hands thoroughly to prevent spread"
+      ],
+      "severity": "Mild to Moderate",
+      "icon": "stomach"
+    },
+    "Food Poisoning": {
+      "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal_pain", "fever", "chills", "loss_of_appetite"],
+      "description": "Illness caused by consuming contaminated food, resulting from bacteria, viruses, parasites, or their toxins.",
+      "precautions": [
+        "Drink plenty of water to prevent dehydration",
+        "Rest and avoid solid food until vomiting stops",
+        "Gradually reintroduce bland foods",
+        "Seek medical care if symptoms persist over 48 hours"
+      ],
+      "severity": "Mild to Moderate",
+      "icon": "stomach"
+    },
+    "Diabetes": {
+      "symptoms": ["frequent_urination", "increased_thirst", "fatigue", "blurred_vision", "weight_loss", "loss_of_appetite", "dizziness"],
+      "description": "A chronic metabolic disease characterized by elevated blood glucose levels, requiring lifelong management.",
+      "precautions": [
+        "Monitor blood glucose levels regularly",
+        "Follow a balanced, low-sugar diet",
+        "Exercise regularly as recommended by your doctor",
+        "Take prescribed medications consistently"
+      ],
+      "severity": "Chronic",
+      "icon": "drop"
+    },
+    "Hypertension": {
+      "symptoms": ["headache", "dizziness", "blurred_vision", "chest_pain", "palpitations", "shortness_of_breath", "fatigue"],
+      "description": "Persistently elevated blood pressure that can lead to serious health problems including heart disease and stroke.",
+      "precautions": [
+        "Reduce sodium intake in your diet",
+        "Exercise regularly with cardio activities",
+        "Limit alcohol and avoid tobacco",
+        "Take prescribed antihypertensive medications"
+      ],
+      "severity": "Chronic",
+      "icon": "heart"
+    },
+    "Anemia": {
+      "symptoms": ["fatigue", "dizziness", "shortness_of_breath", "headache", "rapid_breathing", "palpitations", "weight_loss"],
+      "description": "A condition where the body lacks enough healthy red blood cells to carry adequate oxygen to tissues.",
+      "precautions": [
+        "Eat iron-rich foods like spinach, red meat, and beans",
+        "Take iron supplements if prescribed",
+        "Pair iron-rich foods with vitamin C for absorption",
+        "Get regular blood tests to monitor levels"
+      ],
+      "severity": "Mild to Moderate",
+      "icon": "drop"
+    },
+    "Malaria": {
+      "symptoms": ["fever", "chills", "sweating", "headache", "nausea", "vomiting", "body_ache", "fatigue", "muscle_pain"],
+      "description": "A serious mosquito-borne disease caused by Plasmodium parasites, common in tropical and subtropical regions.",
+      "precautions": [
+        "Take antimalarial medication as prescribed",
+        "Use mosquito nets and insect repellent",
+        "Wear long-sleeved clothing in endemic areas",
+        "Seek prompt medical evaluation for fever"
+      ],
+      "severity": "Severe",
+      "icon": "mosquito"
+    },
+    "Dengue Fever": {
+      "symptoms": ["fever", "headache", "body_ache", "joint_pain", "muscle_pain", "rash", "nausea", "vomiting", "fatigue"],
+      "description": "A mosquito-borne viral infection causing flu-like illness, with severe forms potentially life-threatening.",
+      "precautions": [
+        "Stay hydrated with oral rehydration solutions",
+        "Take acetaminophen for fever (avoid aspirin/ibuprofen)",
+        "Get plenty of rest",
+        "Monitor platelet count with blood tests"
+      ],
+      "severity": "Moderate to Severe",
+      "icon": "mosquito"
+    },
+    "Typhoid": {
+      "symptoms": ["fever", "headache", "abdominal_pain", "diarrhea", "weight_loss", "loss_of_appetite", "fatigue", "rash"],
+      "description": "A bacterial infection caused by Salmonella typhi, spread through contaminated food and water.",
+      "precautions": [
+        "Complete the full course of prescribed antibiotics",
+        "Drink only boiled or bottled water",
+        "Maintain strict hand hygiene",
+        "Avoid raw vegetables and unpeeled fruits"
+      ],
+      "severity": "Severe",
+      "icon": "bacteria"
+    },
+    "Chickenpox": {
+      "symptoms": ["rash", "itching", "fever", "fatigue", "loss_of_appetite", "headache", "body_ache"],
+      "description": "A highly contagious viral infection causing an itchy, blister-like rash on the skin, most common in children.",
+      "precautions": [
+        "Isolate to prevent spreading to others",
+        "Apply calamine lotion to relieve itching",
+        "Keep fingernails short to avoid scratching",
+        "Take cool baths with baking soda"
+      ],
+      "severity": "Mild to Moderate",
+      "icon": "rash"
+    },
+    "Urinary Tract Infection": {
+      "symptoms": ["frequent_urination", "burning_urination", "blood_in_urine", "abdominal_pain", "back_pain", "fever", "fatigue"],
+      "description": "An infection in any part of the urinary system, most commonly affecting the bladder and urethra.",
+      "precautions": [
+        "Drink plenty of water to flush bacteria",
+        "Complete the full course of antibiotics",
+        "Urinate frequently and after intercourse",
+        "Wipe from front to back to prevent infection"
+      ],
+      "severity": "Mild to Moderate",
+      "icon": "drop"
+    },
+    "Acid Reflux": {
+      "symptoms": ["chest_pain", "abdominal_pain", "nausea", "cough", "sore_throat", "loss_of_appetite"],
+      "description": "A digestive disorder where stomach acid frequently flows back into the esophagus, causing heartburn and irritation.",
+      "precautions": [
+        "Avoid spicy, fatty, and acidic foods",
+        "Eat smaller meals and avoid lying down after eating",
+        "Elevate the head of your bed",
+        "Take antacids or prescribed medications"
+      ],
+      "severity": "Mild",
+      "icon": "stomach"
+    },
+    "Anxiety Disorder": {
+      "symptoms": ["anxiety", "palpitations", "shortness_of_breath", "dizziness", "insomnia", "fatigue", "headache", "muscle_pain"],
+      "description": "A mental health condition characterized by persistent, excessive worry that interferes with daily activities.",
+      "precautions": [
+        "Practice deep breathing and mindfulness exercises",
+        "Limit caffeine and alcohol intake",
+        "Maintain regular exercise and sleep schedule",
+        "Consider therapy or counseling support"
+      ],
+      "severity": "Chronic",
+      "icon": "brain"
+    },
+    "Hepatitis": {
+      "symptoms": ["fatigue", "nausea", "vomiting", "abdominal_pain", "loss_of_appetite", "fever", "joint_pain", "weight_loss"],
+      "description": "Inflammation of the liver, commonly caused by viral infections (Hepatitis A, B, C, D, or E) or other factors.",
+      "precautions": [
+        "Avoid alcohol completely",
+        "Get vaccinated for Hepatitis A and B",
+        "Practice safe food and water hygiene",
+        "Follow antiviral treatment if prescribed"
+      ],
+      "severity": "Moderate to Severe",
+      "icon": "liver"
+    },
+    "Tuberculosis": {
+      "symptoms": ["cough", "chest_pain", "weight_loss", "fatigue", "fever", "chills", "sweating", "loss_of_appetite"],
+      "description": "A potentially serious infectious bacterial disease that mainly affects the lungs, spread through the air.",
+      "precautions": [
+        "Take all TB medications for the full duration (6+ months)",
+        "Cover mouth when coughing or sneezing",
+        "Ensure good ventilation in living spaces",
+        "Get regular follow-up tests"
+      ],
+      "severity": "Severe",
+      "icon": "lungs"
+    }
+  },
+  "all_symptoms": [
+    "fever",
+    "mild_fever",
+    "cough",
+    "headache",
+    "fatigue",
+    "body_ache",
+    "sore_throat",
+    "runny_nose",
+    "sneezing",
+    "shortness_of_breath",
+    "chest_pain",
+    "nausea",
+    "vomiting",
+    "diarrhea",
+    "abdominal_pain",
+    "loss_of_appetite",
+    "weight_loss",
+    "dizziness",
+    "joint_pain",
+    "muscle_pain",
+    "chills",
+    "sweating",
+    "rash",
+    "itching",
+    "wheezing",
+    "congestion",
+    "watery_eyes",
+    "frequent_urination",
+    "burning_urination",
+    "blood_in_urine",
+    "back_pain",
+    "increased_thirst",
+    "blurred_vision",
+    "palpitations",
+    "anxiety",
+    "insomnia",
+    "loss_of_smell",
+    "loss_of_taste",
+    "rapid_breathing",
+    "sensitivity_to_light"
+  ]
+}

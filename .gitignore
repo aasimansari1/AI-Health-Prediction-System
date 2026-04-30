@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+
+# Model artifacts (regenerable)
+model/*.joblib
+
+# Frontend
+frontend/node_modules
+frontend/dist
+
+# Editor
+.vscode/
+.idea/
+*.log
+.DS_Store
